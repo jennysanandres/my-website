@@ -1,0 +1,159 @@
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-family: "monts";
+}
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "sac";
+}
+@keyframes cloud1{
+    0%{
+        opacity: 0;
+        transform: translateX(95vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-95vw);
+    }
+}
+@keyframes cloud2{
+    0%{
+        opacity: 0;
+        transform: translateX(-95vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(95vw);
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    text-align: center;
+}
+
+.Home-Header{
+    background-color: firebrick;
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+}
+.c1{
+    position: relative;
+    top: 1rem;
+    left: 25rem;
+    animation: cloud1 14s infinite linear;
+    size: 200px;
+}
+.c2{
+    position: relative;
+    bottom: 30rem;
+    right: 1rem;
+    animation: cloud2 14s infinite linear;
+    size: 200px;
+}
+.header-title{
+    font-family: "sac";
+    font-size: 6rem;
+    color: antiquewhite;
+}
+.header-sub{
+    font-family: "monts";
+    font-size: 2rem;
+}
+.m1{
+    position: relative;
+    padding-top: 11rem;
+    right: 5rem;
+        
+    
+}
+
+
+
+.home-section-intro{
+    background-color: cornflowerblue;
+    height: 50vh;
+    position: relative;
+}
+.intro-img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    padding-top: 3rem;
+}
+
+.home-section-skills{
+    height: 70vh;
+    position: relative;
+    line-height: 2;
+}
+.skills-article-container{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.skills-img-1{
+    width: 10rem;
+    position: relative;
+    float: left;
+    top: 2rem;
+    left: 20rem;
+    
+}
+.skills-title{
+    font-size: 6rem;
+    color: hotpink;
+    text-align: center;
+}
+.skills-p1{
+    font-size: 2rem;
+    text-align: center;
+}
+.skills-arctile-sub{
+    width: 50%;
+    overflow: hidden;
+    
+}
+
+
+.skills-p2{
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+.home-footer{
+    padding-top: 4rem;
+    background-color: cadetblue;
+    height: 20vh;
+}
+.footer-contactme{
+    border-radius: 2rem;
+    width: 12rem;
+    height: 3rem;
+}
+.footer-contactme:hover{
+    background-color: aliceblue;
+    font-family: "monts";
+}
+.footer-ask{
+    font-family: "monts";
+    font-size: 2rem;
+}
+.footer-p{
+    font-family: "monts";
+    font-size: 2rem;
+}
